@@ -20,7 +20,7 @@ if __name__ == "__main__":
     t, p = ejecutar_deterministico(P0, r, tiempo)
 
     plt.plot(t, p, label='Determinístico', color='blue', linewidth=2)
-    plt.title('Modelo Determinístico de Crecimiento Poblacional')
+    plt.title('Modelo Determinístico de Decrecimiento Poblacional')
     plt.xlabel('Tiempo')
     plt.ylabel('Población')
     plt.grid(True)

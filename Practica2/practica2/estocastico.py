@@ -27,7 +27,6 @@ if __name__ == "__main__":
     # Parámetros
     P0 = 1000
     r = 0.1236
-    r = - 0.1236
     sigma = 30
     tiempo = 6
 

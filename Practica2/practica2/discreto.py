@@ -18,7 +18,6 @@ if __name__ == "__main__":
     # Parámetros
     P0 = 1000
     r = 0.1236
-    r = - 0.1236
     tiempo = 6
 
     # Ejecutar modelo

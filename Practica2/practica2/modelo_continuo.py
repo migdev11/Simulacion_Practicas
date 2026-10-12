@@ -22,14 +22,13 @@ if __name__ == "__main__":
 
     P0 = 1000
     r = 0.1236
-    r = - 0.1236
     tiempo = 6
     dt = 0.1
 
     t, p = ejecutar_continuo(P0, r, tiempo, dt)
 
     plt.plot(t, p, color='red', label='Continuo (Euler)')
-    plt.title('Modelo Continuo (Euler) de Crecimiento')
+    plt.title('Modelo Continuo (Euler) de Decrecimiento')
     plt.xlabel('Tiempo')
     plt.ylabel('Población')
     plt.grid(True)
