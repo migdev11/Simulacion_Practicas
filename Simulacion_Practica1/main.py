@@ -15,4 +15,4 @@ mi_vista = VistaClima()
 
 mi_controlador = ControladorClima(mod_original, mod_ajustado, mi_vista)
 
-mi_controlador.iniciar_simulacion_completa(lista_horas, lista_humedad, lista_nubosidad, lista_temp)
+mi_controlador.inicSiar_simulacion_completa(lista_horas, lista_humedad, lista_nubosidad, lista_temp)
