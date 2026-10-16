@@ -6,7 +6,7 @@ Programa en Python que **compara el modelo teórico de una cola M/M/1 con una si
 
 | Tecnología | Versión usada en el desarrollo | Para qué se usa |
 |---|---|---|
-| Python | 3.14.4 (según `.venv/pyvenv.cfg`) | Lenguaje del proyecto |
+| Python | 3.14.4 (según `../.venv/pyvenv.cfg`) | Lenguaje del proyecto |
 | [SimPy] | 4.1.2 | Simulación de eventos discretos (llegadas, cola y servidor) |
 | [NumPy]| 2.5.4 | Generador aleatorio con semilla y distribución exponencial |
 | [Matplotlib] | 3.11.2 | Gráficas guardadas como imágenes PNG (backend `Agg`, sin ventanas) |
@@ -87,7 +87,7 @@ Si λ ≥ μ el sistema es inestable (la cola crece sin límite). El programa lo
    pip install -r requirements.txt
    ```
 
-   Esto instala `simpy`, `matplotlib` y `numpy` (contenido de `requirements.txt`).
+   Esto instala `simpy`, `matplotlib` y `numpy` (contenido de `../requirements.txt`).
 
 ## 4. Cómo ejecutar
 
