@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Practica2/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Simulacion_Practica1/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/practica3/simul_lineas_espera/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/practica1/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="~/PycharmProjects/PythonProject1/Mis_Practicas_Simulacion/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
